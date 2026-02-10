@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Postman Clone
 
-## Getting Started
+[English Version Below]
 
-First, run the development server:
+## 🇻🇳 Tiếng Việt
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**My Postman Clone** là một công cụ kiểm thử API đơn giản, mạnh mẽ được xây dựng bằng Next.js. Ứng dụng này giúp bạn gửi các HTTP request (GET, POST, PUT, DELETE) trực tiếp từ trình duyệt mà không bị chặn bởi CORS hay Proxy của mạng công ty nhờ cơ chế Reverse Proxy tích hợp sẵn.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Tính năng chính
+* **Vượt tường lửa (Bypass Proxy/CORS):** Sử dụng Next.js API Routes để làm trung gian gọi request.
+* **Hỗ trợ đầy đủ Method:** GET, POST, PUT, DELETE, PATCH.
+* **Trình soạn thảo Headers:** Tùy chỉnh Headers (Add, Edit, Enable/Disable).
+* **Trình soạn thảo JSON Body:** Gửi dữ liệu JSON cho các method POST/PUT.
+* **Lịch sử (History):** Tự động lưu và xem lại các request gần nhất.
+* **Giao diện Sáng/Tối (Light/Dark Mode):** Tùy chỉnh theo sở thích.
+* **Syntax Highlighting:** Hiển thị kết quả JSON đẹp mắt, dễ đọc.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Cài đặt và Chạy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  Clone dự án về máy:
+    ```bash
+    git clone [https://github.com/your-username/my-postman-clone.git](https://github.com/your-username/my-postman-clone.git)
+    cd my-postman-clone
+    ```
 
-## Learn More
+2.  Cài đặt dependencies:
+    ```bash
+    npm install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3.  Chạy server phát triển:
+    ```bash
+    npm run dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4.  Mở trình duyệt tại: `http://localhost:3000`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🇺🇸 English
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**My Postman Clone** is a lightweight yet powerful API testing tool built with Next.js. It allows you to send HTTP requests (GET, POST, PUT, DELETE) directly from your browser, bypassing CORS issues and corporate Proxy restrictions via a built-in Reverse Proxy mechanism.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Key Features
+* **Proxy/CORS Bypass:** Uses Next.js API Routes as a middleware to handle requests.
+* **Full Method Support:** GET, POST, PUT, DELETE, PATCH.
+* **Headers Editor:** Customize Headers easily (Add, Edit, Enable/Disable).
+* **JSON Body Editor:** Send JSON payloads for POST/PUT methods.
+* **Request History:** Automatically saves and allows quick reloading of recent requests.
+* **Light/Dark Mode:** Toggle UI themes instantly.
+* **Syntax Highlighting:** Beautifully formatted JSON response viewer.
+
+### Installation & Usage
+
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/your-username/my-postman-clone.git](https://github.com/your-username/my-postman-clone.git)
+    cd my-postman-clone
+    ```
+
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3.  Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+4.  Open your browser at: `http://localhost:3000`
